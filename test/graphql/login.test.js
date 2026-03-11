@@ -5,7 +5,6 @@ it('deve autenticar o usuario corretamente', async () => {
     await spec()
         .post('http://lojaebac.ebaconline.art.br/graphql')
         .withGraphQLQuery(`
-    {
 mutation AuthUser($email: String, $password: String) {
   authUser(email: $email, password: $password) {
     success
