@@ -1,0 +1,20 @@
+{
+  "name": "graphql-pactumjs",
+  "version": "1.0.0",
+  "description": "teste em GraphQL e PactumJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "Yuri Mielli",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "mocha": "^11.7.5",
+    "pactum": "^3.9.1"
+  },
+  "dependencies": {
+    "pactum-matchers": "^1.2.0"
+  }
+}
